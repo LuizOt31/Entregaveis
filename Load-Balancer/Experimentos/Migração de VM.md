@@ -27,3 +27,6 @@ Julgamos este teste pertinente, pois em ambientes Cloud, caso um *compute node* 
 
 ---
 ### Primeiro passo
+![Texto alternativo](../Bucket/tcpdump.png)
+Perceba pela imagem que o IPVS só irá atrás da instância quando receber um pacote de fora. 
+De alguma maneira, não aparece pacotes na interface da pamonha2 para ver a rota perfeitamente
