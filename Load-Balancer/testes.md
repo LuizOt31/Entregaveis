@@ -9,5 +9,4 @@ Esse arquivo tem como finalidade pensar em alguns testes para entender load bala
 2) Testar Abrir server http em vms em rede OVN com lfoating ip e ver se da certo
 
 3) Testar abrir server http e trocar a vm de lugar (trocando de compute node)
-
-- Justificativa: Para achar a VM
+    - Justificativa: O IPVS acha a VM por algum meio, mandando um ARP e o OVN responde onde está, assim estabelecendo uma rota. Porém vamos testar como funciona se trocarmos de lugar a vm. Veremos se a rota será mudada e conseguirá achar. Para isso vamos abrir um tcpdump nos computadores que a VM estiver e no curau para ver o que acontece!
